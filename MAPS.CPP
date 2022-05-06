@@ -13,10 +13,9 @@ int main()
     first['c'] = 30;
     first['d'] = 40;
 
-    map<char, int>::iterator it;
-    for (it = first.begin(); it != first.end(); ++it)
+    for (auto &pr : first)
     {
-        cout << it->first << " => " << it->second << '\n';
+        cout << pr.first << " " << pr.second << endl;
     }
 
     return 0;
