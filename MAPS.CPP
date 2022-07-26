@@ -14,7 +14,7 @@ int main()
     first['c'] = 30;
     first['d'] = 40;
 
-    for (auto pr : first)
+    for (auto &pr : first)
     {
         cout << pr.first << " " << pr.second << endl;
     }
