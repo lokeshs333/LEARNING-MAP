@@ -18,6 +18,30 @@ int main()
     {
         cout << pr.first << " " << pr.second << endl;
     }
+    
+//     imp points
+     map<int ,string>mp;
+    mp[3]="lokesh pandey";
+    mp[1]="missssss";
+    mp[2]="chris gayle";
+    mp[4]="kushagra";
+    mp[0]="siii";
+    mp[0]="ishu";
+    
+    for(auto p:mp){
+        cout<<p.first<<"    "<<p.second<<endl;
+    }
+    auto it=mp.find(3);
+    if(it==mp.end()){
+        cout<<"lokesh";
+    // auto ans=mp[it]<<endl;
+    // cout<<ans.second<<endl;
+    }
+    //important note
+    //if you find a thing which is not present in the map then simply its iterator will point to end of present element in an map
+    else{
+        cout<<"pandey";
+    }
 
     return 0;
 }
