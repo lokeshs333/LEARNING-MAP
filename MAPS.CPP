@@ -45,5 +45,12 @@ int main()
 
     
 //     unordered map is just as same as th map but it stored value in an order u insert in an map it doesnt sort the map or soething like that..
+    unordered_map<int ,int>pm;
+    for(int i=0;i<10;i++){
+        pm[i]=10+i;
+    }
+    for(auto it:pm){
+        cout<<it.first<<"  "<<it.second<<endl;
+    }
     return 0;
 }
