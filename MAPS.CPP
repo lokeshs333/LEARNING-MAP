@@ -43,5 +43,7 @@ int main()
         cout<<"pandey";
     }
 
+    
+//     unordered map is just as same as th map but it stored value in an order u insert in an map it doesnt sort the map or soething like that..
     return 0;
 }
